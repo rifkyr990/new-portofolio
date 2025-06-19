@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+nav {
+  font-family: ovo;
+}
+
+.font-outfit {
+  font-family: Outfit;
+}
