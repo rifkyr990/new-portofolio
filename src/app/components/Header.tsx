@@ -11,7 +11,7 @@ const Header = () => {
                     Hi! i'm Rifky Ramadhan 
                     <Image src={assets.hand_icon} alt="" className="w-6" />
                 </h3>
-                <h1 className="text-2xl sm:text-5xl lg:text-[50px] font-ovo">Fullstack Web Developer based in Yogyakarta</h1>
+                <h1 className="text-2xl sm:text-5xl lg:text-[50px] font-ovo">Software Engineer based in Yogyakarta</h1>
                 <p className="max-w-2xl mx-auto font-ovo">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Nemo sint quo quidem eum similique, dignissimos labore nostrum ex, 

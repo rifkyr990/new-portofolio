@@ -1,11 +1,12 @@
 "use client";
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Image from 'next/image'
-import {assets} from '@/assets'
+import { assets } from '@/assets'
 import { useRef } from 'react'
 
 
 const Navbar = () => {
+    const [isScroll, setIsScroll] = useState(false);
     const menuRef = useRef<HTMLUListElement | null>(null);
 
     const bukaMenu = () => {
@@ -20,17 +21,27 @@ const Navbar = () => {
         }
     };
 
+    useEffect(()=>{
+        window.addEventListener('scroll', ()=>{
+            if (scrollY > 50) {
+                setIsScroll(true);
+            } else {
+                setIsScroll(false);
+            }
+        })
+    })
+
 
     return (
         <>
         <div className='fixed top-0 right-0 w-11/12 -z-10 translate-y-[-80%]'>
             <Image src={assets.header_bg_color} alt='bg-image' className='w-full'/>
         </div>
-        <nav className='w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50'>
+        <nav className={`w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50 ${isScroll ? "bg-white bg-opacity-50 backdrop-blur-lg shadow-sm" : ""}`}>
             <a href="#top">
                 Logonya
             </a>
-            <ul className="hidden md:flex items-center gap-6 lg:gap-8 px-12 py-3 shadow-sm bg-opacity-50 rounded-full absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 bg-white">
+            <ul className={`hidden md:flex items-center gap-6 lg:gap-8 px-12 py-3 bg-opacity-50 rounded-full absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 ${isScroll ? "" : "bg-white shadow-sm"}`}>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#service">Service</a></li>
                 <li><a href="#project">Project</a></li>
