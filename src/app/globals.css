@@ -7,3 +7,11 @@ nav {
 .font-outfit {
   font-family: Outfit;
 }
+
+.font-ovo {
+  font-family: ovo;
+}
+
+.gridTemplateColumn {
+  grid-template-columns: repeat(auto-fit, minmax(200px));
+}
