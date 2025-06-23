@@ -10,7 +10,7 @@ const Project = () => {
                 <h2 className='text-center text-5xl font-ovo'>My latest work</h2>
 
                 <p className='text-center max-w-2xl mx-auto mt-5 mb-12 font-ovo'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, obcaecati. Accusamus delectus corrupti saepe ad qui nisi similique illum explicabo voluptas odio quis nihil est maiores perferendis obcaecati, placeat repellendus.
+                    Highlighted below are my latest professional networks, including projects and key collaborators that contribute to my growth as a software engineer.
                 </p>
 
                 <div className='grid grid-cols-auto sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 my-10 mx-7'>

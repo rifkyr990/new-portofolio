@@ -3,7 +3,6 @@ import React from 'react';
 import { assets } from '@/assets';
 import Image from 'next/image';
 
-
     const Contact = () => {
         const [result, setResult] = React.useState("");
 
@@ -36,7 +35,7 @@ import Image from 'next/image';
             <h2 className='text-center text-5xl font-ovo'>Get in touch</h2>
 
             <p className='text-center max-w-2xl mx-auto mt-5 mb-12 font-ovo'>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis commodi alias sequi. Quas animi quod eveniet assumenda totam cumque, esse laboriosam aspernatur quibusdam praesentium quidem nam dicta vitae magni? Enim.
+                I'd love to hear from you! If you have any questions, comments or feedback, please use the form below.
             </p>
 
             <form className='max-x-2xl mx-auto' onSubmit={onSubmit}>
@@ -44,7 +43,7 @@ import Image from 'next/image';
                     <input type="text" placeholder='Enter your name' name="name" id="name" className='flex-1 outline-none border border-gray-400 rounded-md bg-white p-3' required/>
                     <input type="email" placeholder='Enter your email' name="email" id="email" className='flex-1 outline-none border-1 border-gray-400 rounded-md bg-white p-3' required/>
                 </div>
-                <textarea name="message" id="message" rows={6} placeholder='Enter your message' className='w-full p-4 outline-none border border-gray-400 rounded-m bg-white mb-6' required></textarea>
+                <textarea name="message" id="message" rows={6} placeholder='Enter your message' className='w-full p-4 outline-none border border-gray-400 rounded-md bg-white mb-6' required></textarea>
                 <button type="submit" className='py-3 px-8 w-max flex items-center justify-between gap-2 bg-black/80 text-white rounded-full mx-auto hover:bg-black duration-500'>
                     Submit
                     <Image src={assets.right_arrow_white} alt='icon' className='w-4'/>

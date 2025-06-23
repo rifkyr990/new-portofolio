@@ -21,7 +21,8 @@ const About = () => {
 
                 <div className='flex-1'>
                     <p className='mb-10 max-w-2xl font-ovo'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sequi porro aut, quasi labore quo, odit corrupti, dolores magni iure consequatur. Quae, facere ipsa perferendis libero exercitationem laudantium ipsam iusto.
+                        I’m an aspiring software engineer with a passion for web development. I have hands-on experience building personal projects using PHP with the Laravel framework and JavaScript for interactive front-end features. <br />
+                        I enjoy learning new technologies, writing clean and maintainable code, and turning ideas into functional applications. I’m currently focused on deepening my skills in full-stack development and excited to contribute to real-world projects while growing as a developer.
                     </p>
 
                     <ul className='grid grid-cols-1 sm:grid-cols-3 gap-6'>

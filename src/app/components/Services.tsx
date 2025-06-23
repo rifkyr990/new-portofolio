@@ -4,12 +4,11 @@ import Image from 'next/image'
 
 const Services = () => {
     return (
-    <div id='services' className='w-full max-w-screen-xl mx-auto py-10 scroll-mt-20'>
+    <div id='service' className='w-full max-w-screen-xl mx-auto py-10 scroll-mt-20'>
         <h4 className='text-center mb-2 text-lg font-ovo'>What i offers</h4>
         <h2 className='text-center text-5xl font-ovo'>My services</h2>
         <p className='text-center font-ovo max-w-2xl mx-auto mb-10 mt-5'>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit reiciendis facilis delectus nam perspiciatis minima nisi magnam totam,
-            quos fugiat minus tenetur nobis voluptatem fuga voluptates dicta. Provident, dolore atque!
+            Building innovative web solutions with PHP and JavaScript — welcome to my portfolio.
         </p>
 
         <div className='grid grid-cols-auto sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 my-10 '>
