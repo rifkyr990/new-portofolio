@@ -78,30 +78,30 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
+        title: 'Online Exam',
+        description: 'Web Application',
         bgImage: '/work-1.png',
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
+        title: 'GIS Web',
+        description: 'Web Application',
         bgImage: '/work-2.png',
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
+        title: 'Laundry Apps',
+        description: 'Web Application',
         bgImage: '/work-3.png',
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
+        title: 'Bucket Store',
+        description: 'Web Application',
         bgImage: '/work-4.png',
     },
 ]
 
 export const serviceData = [
     { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
+    { icon: assets.mobile_icon, title: 'Web app', description: 'Web app development involves creating responsive web...', link: '' },
     { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
     { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
 ]
@@ -119,22 +119,26 @@ export const toolsData = [
 export const testimoni = [
     {
         text: "Layanan pembuatan website laundry-nya sangat profesional dan cepat. Sekarang pelanggan kami bisa order langsung dari HP!",
-        name: "ibu Amanah",
-        role: "Pemilik Amanah Laundry"
+        name: "Indria Mustika",
+        role: "Pemilik Amanah Laundry",
+        photo: "/indria-mustika.jpg",
     },
     {
         text: "Sistem ujian online yang dibuat sangat membantu proses belajar kami. Mudah digunakan dan responsif.",
-        name: "Salfanisa",
-        role: "Guru SMP Setya Budi Bekasi"
+        name: "Salfanisa Azzahra",
+        role: "Guru SMP Setya Budi Bekasi",
+        photo: "/istri.png",
     },
     {
         text: "Tampilan websitenya elegan dan sesuai dengan brand toko bucket kami. Penjualan online jadi jauh lebih mudah.",
-        name: "Wina",
-        role: "Owner Bucklist"
+        name: "Wina Septiani",
+        role: "Owner Bucklist",
+        photo: "/images.jpg",
     },
     {
         text: "Website portofolionya sangat clean dan modern. Sangat cocok untuk mempresentasikan karya saya ke calon klien",
         name: "Wisnu Setiawan",
-        role: "Mahasiswa"
+        role: "Mahasiswa",
+        photo: "/client1.jpg",
     }
 ]

@@ -8,7 +8,7 @@ const Header = () => {
             <div className="flex flex-col items-center text-center gap-4">
                 <Image src={assets.profile_img} alt="profile" className="rounded-full w-35" />
                 <h3 className="flex items-center gap-2 text-xl md:text-2xl mb-3 font-ovo">
-                    Hi! i'm Rifky Ramadhan 
+                    Hi! i&rsquo;m Rifky Ramadhan 
                     <Image src={assets.hand_icon} alt="" className="w-6" />
                 </h3>
                 <h1 className="text-2xl sm:text-5xl lg:text-[50px] font-ovo">Software Engineer based in Yogyakarta</h1>

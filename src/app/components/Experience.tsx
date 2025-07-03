@@ -9,7 +9,7 @@ const Experience = () => {
 
                 <p className='text-center max-w-2xl mx-auto mt-5 mb-12 font-ovo'>
                     From professional employment to freelance work, my journey in tech has been shaped by diverse
-                    projects and meaningful collaborations. Here's a look at the experience that defines my growth.
+                    projects and meaningful collaborations. Here&rsquo;s a look at the experience that defines my growth.
                 </p>
 
                 {/* Full-time Relevant Experience */}
