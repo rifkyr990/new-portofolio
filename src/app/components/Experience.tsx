@@ -15,7 +15,7 @@ const Experience = () => {
                 {/* Full-time Relevant Experience */}
                 <div className="mb-12">
                     <div className='flex justify-between'>
-                        <h4 className="text-2xl font-semibold mb-2">Freelance Project</h4>
+                        <h2 className="text-2xl font-semibold mb-2">Freelance Project</h2>
                         <p className="text-sm text-gray-600 mb-1">Yogyakarta — August 2023 to Present</p>
                     </div>
                     <p className="text-gray-800 mb-2">
