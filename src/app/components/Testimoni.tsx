@@ -6,7 +6,7 @@ const Testimoni = () => {
     const looped = [...testimoni, ...testimoni];
     return (
         <div className='my-20'>
-            <h4 className='text-center mb-2 text-lg font-ovo'>Testimonials</h4>
+            <h1 className='text-center mb-2 text-lg font-ovo'>Testimonials</h1>
             <h2 className='text-center text-5xl font-ovo'>What They Say</h2>
 
             <p className='text-center max-w-2xl mx-auto mt-5 mb-12 font-ovo'>

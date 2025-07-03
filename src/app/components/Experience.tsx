@@ -4,7 +4,7 @@ const Experience = () => {
     return (
         <div>
             <section className="max-w-4xl mx-auto mb-20 px-4 font-ovo">
-                <h4 className='text-center mb-2 text-lg font-ovo'>Career Highlights</h4>
+                <h1 className='text-center mb-2 text-lg font-ovo'>Career Highlights</h1>
                 <h2 className='text-center text-5xl font-ovo'>Experience</h2>
 
                 <p className='text-center max-w-2xl mx-auto mt-5 mb-12 font-ovo'>

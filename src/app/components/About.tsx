@@ -6,7 +6,7 @@ import { assets, infoList, toolsData } from '@/assets'
 const About = () => {
     return (
         <div id='about' className='w-full max-w-screen-xl mx-auto px-6 py-10 scroll-mt-20'>
-            <h4 className='text-center mb-2 text-lg font-ovo'>Introduction</h4>
+            <h1 className='text-center mb-2 text-lg font-ovo'>Introduction</h1>
             <h2 className='text-center text-5xl font-ovo'>About Me</h2>
 
             <div className='flex flex-col lg:flex-row items-center gap-20 my-20'>

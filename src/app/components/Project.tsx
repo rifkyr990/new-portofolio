@@ -6,7 +6,7 @@ const Project = () => {
     return (
         <div>
             <div id='project' className='w-full max-w-screen-xl mx-auto py-0 scroll-mt-20'>
-                <h4 className='text-center mb-2 text-lg font-ovo'>My portofolio</h4>
+                <h1 className='text-center mb-2 text-lg font-ovo'>My portofolio</h1>
                 <h2 className='text-center text-5xl font-ovo'>My latest work</h2>
 
                 <p className='text-center max-w-2xl mx-auto mt-5 mb-12 font-ovo'>
