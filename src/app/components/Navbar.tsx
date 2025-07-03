@@ -45,13 +45,13 @@ const Navbar = () => {
 
                 {/* Logo */}
                 <a href="#top" className="text-xl font-bold">
-                    Logonya
+                    <Image src={assets.logo} alt='logo' className='w-22'/>
                 </a>
 
                 {/* Desktop Menu */}
                 <ul className={`hidden md:flex items-center gap-6 lg:gap-10 px-8 py-2 rounded-full ${isScroll
                     ? "" : "bg-white/60 backdrop-blur-md shadow" } transition-all`}>
-                    <li><a href="#home">Home</a></li>
+                    <li><a href="#header">Home</a></li>
                     <li><a href="#service">Service</a></li>
                     <li><a href="#project">Project</a></li>
                     <li><a href="#about">About me</a></li>
