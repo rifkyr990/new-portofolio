@@ -13,7 +13,7 @@ import Experience from "./components/Experience";
 export default function Home() {
   return (
     <StrictMode>
-      <div>
+      <div className="overflow-x-hidden mx-3">
         <Navbar/>
         <Header/>
         <About/>

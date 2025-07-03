@@ -32,7 +32,7 @@ const Experience = () => {
                 {/* Freelance Experience */}
                 <div>
                     <div className='flex justify-between'>
-                        <h4 className="text-2xl font-semibold mb-2">Software Engineer | Arkatama Multi Solusino</h4>
+                        <h2 className="text-2xl font-semibold mb-2">Software Engineer | Arkatama Multi Solusino</h2>
                         <p className="text-sm text-gray-600 mb-1">Malang — February to July 2023</p>
                     </div>
                     <ul className="list-disc list-inside text-gray-800">
