@@ -6,6 +6,8 @@ import edu_icon_dark from './edu-icon-dark.png';
 import project_icon from './project-icon.png';
 import project_icon_dark from './project-icon-dark.png';
 import vscode from './vscode.png';
+import supabase from './supabase.png';
+import postgre from './pngwing.com.png';
 import firebase from './firebase.png';
 import figma from './figma.png';
 import git from './git.png';
@@ -35,6 +37,8 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import harjay from './harjay.webp';
+import graha from './graha.png';
 
 export const assets = {
     user_image,
@@ -73,30 +77,38 @@ export const assets = {
     right_arrow,
     send_icon,
     right_arrow_bold,
-    right_arrow_bold_dark
+    right_arrow_bold_dark,
+    supabase,
+    postgre,
+    graha,
+    harjay
 };
 
 export const workData = [
     {
         title: 'Online Exam',
         description: 'Web Application',
-        bgImage: '/work-1.png',
+        bgImage: '/ele.png',
+        link: "https://github.com/rifkyr990/sistemujian"
     },
     {
-        title: 'GIS Web',
-        description: 'Web Application',
-        bgImage: '/work-2.png',
+        title: 'Company Profile',
+        description: 'PT. Graha Gloria Group',
+        bgImage: '/graha.png',
+        link: "https://www.grahagloriagroup.com"
+    },
+    {
+        title: 'Company Profile',
+        description: 'PT. Harapan Jaya Prima',
+        bgImage: "/harjay.webp",
+        link: "https://harapan-jaya.vercel.app/"
     },
     {
         title: 'Laundry Apps',
-        description: 'Web Application',
-        bgImage: '/work-3.png',
-    },
-    {
-        title: 'Bucket Store',
-        description: 'Web Application',
-        bgImage: '/work-4.png',
-    },
+        description: 'Amanah Laundry',
+        bgImage: '/laundry.png',
+        link: "https://github.com/rifkyr990/LaundryApps"
+    }
 ]
 
 export const serviceData = [
@@ -108,12 +120,12 @@ export const serviceData = [
 
 export const infoList = [
     { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js, Node JS, Express JS, Laravel' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Computer Science in Universitas Ahmad Dahlan' },
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 4 projects' }
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.vscode, assets.figma, assets.git, assets.supabase, assets.postgre
 ];
 
 export const testimoni = [

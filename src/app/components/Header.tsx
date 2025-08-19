@@ -11,7 +11,7 @@ const Header = () => {
                     Hi! i&rsquo;m Rifky Ramadhan 
                     <Image src={assets.hand_icon} alt="" className="w-6" />
                 </h3>
-                <h1 className="text-2xl sm:text-5xl lg:text-[50px] font-ovo">Software Engineer based in Yogyakarta</h1>
+                <h1 className="text-2xl sm:text-5xl lg:text-[50px] font-ovo">Full Stack Web Developer</h1>
                 <p className="max-w-2xl mx-auto font-ovo">
                     I am an aspiring software engineer with a strong foundation in programming, problem-solving, and software development principles. I am passionate about building efficient and user-friendly applications, and eager to contribute and grow in a professional tech environment.
                 </p>
@@ -19,7 +19,7 @@ const Header = () => {
 
             <div className="flex flex-column sm:flex-row gap-4 mt-4 items-center">
                 <a href="#contact" className="px-10 py-3 border rounded-full border-white bg-black flex items-center gap-2 text-white">Connect with me <Image src={assets.right_arrow_white} alt="" className="w-4"/></a>
-                <a href="#" download className="px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2">My resume <Image src={assets.download_icon} alt="" className="w-4"/></a>
+                <a href="/CV-Rifky Ramadhan.pdf" download className="px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2">My resume <Image src={assets.download_icon} alt="" className="w-4"/></a>
             </div>
         </div>
     )
