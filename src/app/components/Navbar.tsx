@@ -21,17 +21,6 @@ const Navbar = () => {
         }
     };
 
-    const handleScroll = (id: string) => {
-        const element = document.getElementById(id);
-        const offset = 80;
-
-        if (element) {
-            const y = element.getBoundingClientRect().top + window.pageYOffset - offset;
-            window.scrollTo({ top: y, behavior: 'smooth' });
-        }
-    };
-
-
     useEffect(()=>{
         window.addEventListener('scroll', ()=>{
             if (scrollY > 50) {
