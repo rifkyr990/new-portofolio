@@ -11,37 +11,18 @@ const Experience = () => {
                     From professional employment to freelance work, my journey in tech has been shaped by diverse
                     projects and meaningful collaborations. Here&rsquo;s a look at the experience that defines my growth.
                 </p>
-
-                {/* Full-time Relevant Experience */}
-                <div className="mb-12">
-                    <div className='flex justify-between'>
-                        <h2 className="text-2xl font-semibold mb-2">Freelance Project</h2>
-                        <p className="text-sm text-gray-600 mb-1">Yogyakarta — August 2023 to Present</p>
-                    </div>
-                    <p className="text-gray-800 mb-2">
-                        In addition to my full-time role, I have successfully completed various freelance projects
-                        involving web development, UI/UX design, and custom software solutions tailored to client needs.
-                    </p>
-                    <ul className="list-disc list-inside text-gray-800">
-                        <li>Developed and maintained scalable web applications using React and Node.js or Laravel.</li>
-                        <li>Collaborated with cross-functional teams to deliver high-quality software solutions.</li>
-                        <li>Implemented CI/CD pipelines to improve deployment efficiency by 30%.</li>
-                    </ul>
-                </div>
-
                 {/* Freelance Experience */}
-                <div>
-                    <div className='flex justify-between'>
-                        <h2 className="text-2xl font-semibold mb-2">Software Engineer | Arkatama Multi Solusino</h2>
-                        <p className="text-sm text-gray-600 mb-1">Malang — February to July 2023</p>
-                    </div>
-                    <ul className="list-disc list-inside text-gray-800">
-                        <li>Developed an e-commerce platform for a local retailer using Next.js and Stripe API
-                            integration.</li>
-                        <li>Created responsive landing pages and marketing sites for startups.</li>
-                        <li>Provided ongoing maintenance and feature enhancements for small business clients.</li>
-                    </ul>
+                <div className='flex justify-between flex-col sm:flex-row'>
+                    <h2 className="text-2xl font-semibold mb-2">Full Stack Web Developer Intern | Arkatama Multi Solusindo</h2>
+                    <p className="text-sm text-gray-600 mb-1">Malang — February to July 2023</p>
                 </div>
+                <ul className="list-disc list-inside text-gray-800 space-y-2">
+                    <li>Developed a fully functional e-commerce web application for a local retail client using <strong>Laravel</strong> and <strong>MySQL</strong>, including user authentication, product management, order tracking, and payment simulation features.</li>
+                    <li>Built and optimized multiple responsive landing pages and internal tools using <strong>CodeIgniter</strong>, focusing on mobile-first design and cross-browser compatibility.</li>
+                    <li>Integrated backend APIs and handled CRUD operations for various modules, improving system efficiency and reducing loading times by optimizing SQL queries and implementing caching strategies.</li>
+                    <li>Collaborated in an Agile development environment, participated in regular stand-up meetings, and contributed to version control using Git and GitHub.</li>
+                    <li>Conducted testing and debugging across various devices and browsers to ensure seamless user experience and functionality.</li>
+                </ul>
             </section>
         </div>
     )

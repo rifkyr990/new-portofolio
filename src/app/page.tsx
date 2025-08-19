@@ -8,6 +8,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Testimoni from "./components/Testimoni";
 import Experience from "./components/Experience";
+import Education from "./components/education";
 
 
 export default function Home() {
@@ -18,9 +19,8 @@ export default function Home() {
         <Header/>
         <About/>
         <Experience/>
-        <Services/>
+        <Education/>
         <Project/>
-        <Testimoni/>
         <Contact/>
         <Footer/>
       </div>

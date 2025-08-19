@@ -21,6 +21,17 @@ const Navbar = () => {
         }
     };
 
+    const handleScroll = (id: string) => {
+        const element = document.getElementById(id);
+        const offset = 80;
+
+        if (element) {
+            const y = element.getBoundingClientRect().top + window.pageYOffset - offset;
+            window.scrollTo({ top: y, behavior: 'smooth' });
+        }
+    };
+
+
     useEffect(()=>{
         window.addEventListener('scroll', ()=>{
             if (scrollY > 50) {
@@ -34,7 +45,6 @@ const Navbar = () => {
 
     return (
         <>
-            {/* Background Decorative */}
             <div className='fixed top-0 right-0 w-full -z-10 translate-y-[-80%]'>
                 <Image src={assets.header_bg_color} alt='bg-image' className='w-full' />
             </div>
@@ -58,36 +68,24 @@ const Navbar = () => {
                     <li><a href="#contact">Contact me</a></li>
                 </ul>
 
-                {/* Action Buttons */}
                 <div className='flex items-center gap-2'>
-                    {/* Dark Mode Button */}
-                    <button className="p-2">
-                        <Image src={assets.moon_icon} alt='dark-icon' className='w-6' />
-                    </button>
-
-                    {/* Contact Button (Desktop only) */}
                     <a href="#contact"
                         className='hidden lg:flex items-center gap-2 px-6 py-2 border border-gray-500 rounded-full hover:bg-gray-100 transition'>
                         Contact
                         <Image src={assets.arrow_icon} alt="icon" className='w-3' />
                     </a>
 
-                    {/* Hamburger Menu (Mobile) */}
                     <button className='block md:hidden ml-2' onClick={bukaMenu}>
                         <Image src={assets.menu_black} alt='menu' className='w-6' />
                     </button>
                 </div>
             </nav>
 
-            {/* Mobile Menu */}
             <ul ref={menuRef}
                 className='flex md:hidden flex-col gap-5 px-8 py-20 fixed top-0 right-0 z-50 w-64 h-screen bg-white shadow-lg transition-transform duration-300 transform translate-x-full'>
-                {/* Close Button */}
                 <div className='absolute top-6 right-6' onClick={tutupMenu}>
                     <Image src={assets.close_black} alt='close-btn' className='w-5 cursor-pointer' />
                 </div>
-
-                {/* Nav Links */}
                 <li><a href="#home" onClick={tutupMenu}>Home</a></li>
                 <li><a href="#service" onClick={tutupMenu}>Service</a></li>
                 <li><a href="#project" onClick={tutupMenu}>Project</a></li>
